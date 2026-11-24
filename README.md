@@ -13,11 +13,12 @@ Open `html/index.html` in a browser. No server is needed.
 
 - Links were rewritten so pages work offline.
 - Forms (search, jump box, login, display options) and the reply / new topic buttons are disabled.
+- The member rank pictures (`images/ranks/`) were never saved and could not be downloaded any more, so they were removed. The rank titles stay.
 - Pictures that posts loaded from outside sites, where they could still be saved, are in `html/ext-images` (list in `html/ext-images/manifest.tsv`). Other outside pictures and links are left as they were.
 
 ## Folders
 
 - `html/` pages, attachments (`html/download`), page styles and scripts
-- `images/` smilies, icons, rank pictures
+- `images/` smilies, icons
 - `styles/` board theme
 - `notice/` notice pictures
